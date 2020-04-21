@@ -81,6 +81,12 @@ def decode(pix,width,height):
 			message += bin2str(temp)
 			temp = ''
 	return message
+
+def read_video():
+	pass
+def encode_video():
+	pass
+
 def main(args):
 	option = args[1]
 	image = Image.open(args[2])
