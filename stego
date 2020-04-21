@@ -86,6 +86,8 @@ def read_video():
 	pass
 def encode_video():
 	pass
+def push_code():
+    pass
 
 def main(args):
 	option = args[1]
